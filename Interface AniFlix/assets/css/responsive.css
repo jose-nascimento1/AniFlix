@@ -1,0 +1,107 @@
+@media screen and (max-width: 768px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    header .container h2 {
+        margin: 0;
+        text-align: center;
+    }
+    nav {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .anime-principal {
+        font-size: 16px;
+        background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url(../img/ani/min0.jpg);
+    
+        background-size: cover;
+        height: 600px;
+    }
+    .anime-principal .container {
+        width: 100%;
+    }
+    .anime-principal .description {
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .anime-principal .btn {
+        margin-bottom: 10%;
+    }
+    .cartoon-principal {
+        font-size: 16px;
+        background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url(../img/toon/min0.jpg);
+    
+        background-size: cover;
+        height: 600px;
+    }
+    .cartoon-principal .container {
+        width: 100%;
+    }
+    .cartoon-principal .description {
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .cartoon-principal .btn {
+        margin-bottom: 10%;
+    }
+    .movie-ani-principal {
+        font-size: 16px;
+        background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url(../img/movie-ani/min0.jpg);
+    
+        background-size: cover;
+        height: 600px;
+    }
+    .movie-ani-principal .container {
+        width: 100%;
+    }
+    .movie-ani-principal .description {
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .movie-ani-principal .btn {
+        margin-bottom: 10%;
+    }
+    .movie-toon-principal {
+        font-size: 16px;
+        background-image: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)), url(../img/movie-toon/min0.jpg);
+    
+        background-size: cover;
+        height: 600px;
+    }
+    .movie-toon-principal .container {
+        width: 100%;
+    }
+    .movie-toon-principal .description {
+        width: 90%;
+        margin-top: 5%;
+        margin-bottom: 10%;
+    }
+    .movie-toon-principal .btn {
+        margin-bottom: 10%;
+    }
+    footer {
+        margin-top: 50px;
+        display: block;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 900px) {
+    .anime-principal .btn {
+        margin-bottom: 5%;
+    }
+    .cartoon-principal .btn {
+        margin-bottom: 5%;
+    }
+    .movie-ani-principal .btn {
+        margin-bottom: 5%;
+    }
+    .movie-toon-principal .btn {
+        margin-bottom: 5%;
+    }
+}

@@ -1,0 +1,311 @@
+:root{
+    --orange:#ff5218;
+    --black:black;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+/*Plataforma*/
+body {
+    color: white;
+    background: var(--black);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo {
+    margin-left: 5px;
+    color: var(--orange);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+header nav a:hover {
+    color: white;
+}
+.container {
+    margin-left: 20px;
+}
+footer {
+    display: flex;
+    align-items: center;
+    background-color: var(--black);
+    justify-content: space-around;
+    width: 100%;
+    height: 70px;
+}
+footer a {
+    justify-content: space-around;
+    text-decoration: none;
+    color: var(--orange);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+}
+/*Anime principal*/
+.anime-principal {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url(../img/ani/banner0.jpg);
+
+    background-size: cover;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.anime-principal .title {
+    color: var(--orange);
+}
+.anime-principal .container {
+    width: 40%;
+}
+.anime-principal .description {
+    margin-top: 5%;
+    margin-bottom: 90px;
+}
+.anime-principal .title {
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: Tahoma, sans-serif;
+}
+.anime-principal .btn {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+.btn a:hover {
+    background-color: white;
+    color: black;
+}
+.btn i {
+    margin-right: 10px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.box-anime {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
+.top {
+    color: var(--orange);
+    margin: 10px;
+}
+/*Cartoon Principal*/
+.cartoon-principal {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url(../img/toon/banner0.jpg);
+
+    background-size: cover;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.cartoon-principal .title {
+    color: var(--orange);
+}
+.cartoon-principal .container {
+    width: 40%;
+}
+.cartoon-principal .description {
+    margin-top: 5%;
+    margin-bottom: 90px;
+}
+.cartoon-principal .title {
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: Tahoma, sans-serif;
+}
+.cartoon-principal .btn {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+.btn a:hover {
+    background-color: white;
+    color: black;
+}
+.btn i {
+    margin-right: 10px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.box-cartoon {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
+.top {
+    color: var(--orange);
+    margin: 10px;
+}
+/*Filme anime pricipal*/
+.movie-ani-principal {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url(../img/movie-ani/banner0.jpg);
+
+    background-size: cover;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.movie-ani-principal .title {
+    color: var(--orange);
+}
+.movie-ani-principal .container {
+    width: 40%;
+}
+.movie-ani-principal .description {
+    margin-top: 5%;
+    margin-bottom: 90px;
+}
+.movie-ani-principal .title {
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: Tahoma, sans-serif;
+}
+.movie-ani-principal .btn {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+.btn a:hover {
+    background-color: white;
+    color: black;
+}
+.btn i {
+    margin-right: 10px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.box-movie-ani {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
+.top {
+    color: var(--orange);
+    margin: 10px;
+}
+/*Filme cartoon principal*/
+.movie-toon-principal {
+    font-size: 16px;
+    background-image: linear-gradient(rgba(0,0,0,.75), rgba(0,0,0,.75)), url(../img/movie-toon/banner0.jpg);
+
+    background-size: cover;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.movie-toon-principal .title {
+    color: var(--orange);
+}
+.movie-toon-principal .container {
+    width: 40%;
+}
+.movie-toon-principal .description {
+    margin-top: 5%;
+    margin-bottom: 90px;
+}
+.movie-toon-principal .title {
+    margin-top: 15%;
+    font-size: 50px;
+    font-family: Tahoma, sans-serif;
+}
+.movie-toon-principal .btn {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s ease all;
+}
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+.btn a:hover {
+    background-color: white;
+    color: black;
+}
+.btn i {
+    margin-right: 10px;
+}
+.btn a {
+    text-decoration: none;
+    color: white;
+}
+.box-movie-toon {
+    width: 100%;
+    height: 100%;
+    display: block;
+    cursor: pointer;
+}
+.top {
+    color: var(--orange);
+    margin: 10px;
+}
