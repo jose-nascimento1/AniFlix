@@ -1,7 +1,7 @@
 # Project AniFlix +
 Me inspirei na interface do principal site de streaming mundial para criar uma interface do "AniFlix +" utilizando tecnologias simples como HTML5, CSS3 e JavaScript. Nesse projeto aprendi: como estruturar um layout, técnicas de CSS3 com containers e variáveis, como posicionar os elementos com Flexbox e como utilizar plugins JQuery a favor da aplicação.
 
-Uma interface com HTML5, CSS3 e JavaScript da Digital Innovation One.
+Uma interface com HTML5, CSS3 e JavaScript da [Digital Innovation One](https://dio.me/).
 
 🔗 [Clique aqui pra acessar o projeto](https://ani-flix-projects.web.app/)
 
