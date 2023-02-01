@@ -3,7 +3,7 @@ I was inspired by the interface of the main streaming site in the world to creat
 
 An interface with HTML5, CSS3 and JavaScript by [Digital Innovation One](https://dio.me/).
 
-🔗 [Clique aqui pra acessar o projeto](https://ani-flix-projects.web.app/)
+🔗 [Click here to access the project](https://ani-flix-projects.web.app/)
 
 ![image](https://project-files.picsart.com/project_files/9dad800a-c777-4318-922e-00e46897b779.png)
 ![image](https://project-files.picsart.com/project_files/2ea6f9d7-dd11-40a5-bafd-8ae7133629d0.png)
